@@ -1,0 +1,59 @@
+# Object files
+*.oo
+*.ko.
+*.obj
+*.elf
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.
+*.dylib
+
+# Executables
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
+# Vim stuff
+*.sw[a-p]
+
+#Mac crap
+.DS_Store
+
+#Eclipse
+.metadata
+.recommenders
+.classpath
+.project
+*.class
+/bin
+
+#Android
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+#psephos
+/classexamples
+/classresources
+/textresources
