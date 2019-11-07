@@ -1,0 +1,204 @@
+/*
+CSS Stylesheet, Taso Kinnas
+
+{ color: #29506D }	Main Primary color 
+{ color: #718EA4 } Box 1
+{ color: #496D89 } Box 2
+{ color: #123652 } Box 3
+{ color: #042037 } Box 4
+
+*/
+
+body {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 13px 0 0 0;
+	font: 12px/1.5 'segoe ui', 'lucida sans unicode', 'lucida grande', lucida, sans-serif;
+}
+
+.cleaner {
+	clear: both;
+	height: 1px; margin: 0;
+}
+
+/* Header Styling */
+header {
+	position: relative;
+	width: 1000px; 
+	height: 175px;
+	background: #29506D;
+}
+#logo {
+	position: absolute;
+	left: 0px;
+	width: 100px; /* maintain size */
+}
+h1 {
+	position: absolute; 
+	font-style: italic;
+	font-size: 36px; 
+	left: 125px;
+	margin: 0;
+	font-family: Georgia, serif;
+	color: #718EA4;
+}
+h2 {
+	position: absolute;
+	top: 65px;
+	left: 125px;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #042037;
+}
+#logout > h3 {
+	float: right;
+	margin: 10px;
+	padding: 10px;
+}
+
+#login, #logout, #error {
+	float: right;
+}
+/* Header end */
+
+/* Nav Styling */
+#menu {
+	margin: 0; padding: 1px 0;
+	list-style-type: none;
+	height: 26px;
+	border-bottom: 1px solid black;
+	}
+.navopt {
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 26px;
+	border-bottom: 1px solid black;
+}
+.navlink {
+	position: relative;
+	display: block;
+	margin: 1px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background: #718EA4;
+	color: #042037;
+}
+#menu a span {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	width: 8px; height: 8px;
+	background: #496D89;
+}
+
+#menu a.sel {
+	background: #123652;
+	color: #718EA4;
+}
+
+.highlight {
+	background: #042037;
+	color: #496D89;
+}
+.active {
+	background: #123652;
+	color: #718EA4;
+}
+/* Nav end*/
+
+/* Section Styling */ 
+section {
+
+}
+section table {
+	border: 1px solid black;
+	margin: 5px;
+}
+section th, td {
+	border: 1px solid black;
+}
+
+#hello {
+	float: left;
+	width: 450px;
+	padding: 10px 20px;
+	border-right: 1px dotted black;
+}
+#hello dt {
+	float: left;
+	font-weight: bold;
+}
+#hello dd {
+	margin: 1em 0 1em 6em;
+}
+#feed {
+	float: right;
+	width: 450px;
+	margin: 0 20px 0 0;
+	padding: 10px 0;
+}
+#filter {
+	float: left;
+	width: 300px;
+	padding: 10px;
+}
+#output {
+	float: right;
+	width: 600px; 
+	margin: 0 20px 0 0;
+	padding: 10px 20px;
+	border-left: 1px dotted black;
+}
+#author {
+	float: left;
+	width: 100px; /* maintain size */
+	padding: 5px;
+	margin: 10px;
+}
+/* Section end */
+
+/* Footer Styling */
+footer {
+	margin: 10px 0 10px 0;
+	padding: 5px 0;
+	height: 50px;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background: #718EA4;
+}
+footer a {
+	padding: 3px 5px;
+	text-decoration: none;
+	color: #042037;
+}
+footer a:hover {
+	background: #042037;
+	color: #496D89;
+}
+footer > ul > li {
+	display: inline
+}
+
+#validate {
+    float: right;
+}
+#copy, #misclinks {
+	float: left;
+	margin: 10px;
+}
+.misclink {
+	border-right: 1px solid black;
+}
+
+/* Footer end */
